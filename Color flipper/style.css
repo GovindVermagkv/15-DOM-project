@@ -1,0 +1,49 @@
+nav{
+    background-color: antiquewhite;
+    box-shadow: 2px 30px 20px solid black;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0px 20px; */
+}
+h4{
+    color: red;
+    font-size: 20px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    margin: 10px 20px;
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+ul li a:hover{
+   border-bottom: 2px solid red;
+}
+button{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: black;
+    transition: .5s;
+    color: white;
+}
+h2{
+    margin-top: 30%;
+}
+.bd{
+    border-bottom: 2px solid red;
+}
