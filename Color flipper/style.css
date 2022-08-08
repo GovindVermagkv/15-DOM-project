@@ -42,7 +42,11 @@ button:hover{
     color: white;
 }
 h2{
-    margin-top: 10%;
+    margin-top: 12%;
+    background-color: aliceblue;
+    width: fit-content;
+    padding: 10px 30px;
+    border-radius: 20px;
 }
 .bd{
     border-bottom: 2px solid red;
