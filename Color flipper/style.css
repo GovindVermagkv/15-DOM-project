@@ -1,3 +1,8 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
 nav{
     background-color: antiquewhite;
     box-shadow: 2px 30px 20px solid black;
@@ -50,4 +55,22 @@ h2{
 }
 .bd{
     border-bottom: 2px solid red;
+}
+img{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 55%;
+    right: 10%;
+    color: red;
+    display: none;
+}
+img #img2{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    color: red;
+    display: none;
 }

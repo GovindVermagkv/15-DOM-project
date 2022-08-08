@@ -19,10 +19,14 @@
 
         <main>
             <center>
-                <h2 id="head">Background color Code is :<strong id="color"></strong>  </h2>
+                <h2 id="head">Background color Code is :<strong id="color">white</strong>  </h2>
             </center>
             <button id="btn" onclick="colorchange()">Click Me</button>
         </main>
+
+        <img src="" alt="" id="img">
+        <img src="" alt="" id="img2">
+
     </div>
 
 
@@ -31,28 +35,30 @@
 
 const hex=[1,2,3,4,5,6,7,8,9,"A","B","C","D","E","F"];
 const btn=document.getElementById("btn")
+var imge=document.getElementById("img")
+var imge2=document.getElementById("img2")
 
 function colorchange(){
     let hexcolor ="#";
-    for(let i=0; i<3; i++){
-        // hexcolor += hex[getRandomNumber]
+    for(let i=0; i<4; i++){
         hexcolor += getRandomNumber()
-        // console.log(hexcolor);
     }
-    console.log(hexcolor);
     color.textContent = hexcolor
     document.body.style.backgroundColor=hexcolor;
-   
 
-    // var head=document.getElementById("colorname");
-    // head.innerText = hex;
-
+    imge.src="1uJP.gif";
+    imge.style.display="block"
+    imge2.src="1uJP.gif";
+    imge2.style.display="block"
+   imge2.style.left="10%"
 }
 
 
 function getRandomNumber(){
     return Math.floor(Math.random()*hex.length);
 }
+
+// setInterval(colorchange,500)
 
 </script>
 </body>
