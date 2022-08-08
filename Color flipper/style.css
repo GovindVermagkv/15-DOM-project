@@ -30,7 +30,7 @@ ul li a:hover{
 button{
     position: absolute;
     top: 50%;
-    left: 45%;
+    left: 47%;
     font-weight: bold;
     padding: 10px 20px;
     background-color: transparent;
@@ -42,7 +42,7 @@ button:hover{
     color: white;
 }
 h2{
-    margin-top: 30%;
+    margin-top: 10%;
 }
 .bd{
     border-bottom: 2px solid red;
