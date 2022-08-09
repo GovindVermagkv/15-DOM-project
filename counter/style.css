@@ -1,5 +1,5 @@
 .area{
-    margin-top: 10%;
+    margin-top: 5%;
 }
 .icons i{
     margin: 150px 60px 0px 60px;
@@ -8,4 +8,26 @@
 
 #display{
     font-size: 55px;
+}
+.area img{
+    width: 250px;
+    width: 250px;
+}
+
+button{
+   position: absolute;
+   top: 53%;
+   left: 46%;
+   font-weight: bold;
+   padding: 13px 30px;
+   background-color: transparent;
+   border-radius: 10px;
+   border: 2px solid red;
+    
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    transition: .5s;
 }
