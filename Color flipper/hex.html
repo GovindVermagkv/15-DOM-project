@@ -26,6 +26,7 @@
 
         <img src="" alt="" id="img">
         <img src="" alt="" id="img2">
+        <audio src="Color.mp3" id="audio"></audio>
 
     </div>
 
@@ -37,6 +38,7 @@ const hex=[1,2,3,4,5,6,7,8,9,"A","B","C","D","E","F"];
 const btn=document.getElementById("btn")
 var imge=document.getElementById("img")
 var imge2=document.getElementById("img2")
+var audio=document.getElementById("audio")
 
 function colorchange(){
     let hexcolor ="#";
@@ -51,6 +53,7 @@ function colorchange(){
     imge2.src="1uJP.gif";
     imge2.style.display="block"
    imge2.style.left="10%"
+   audio.play()
 }
 
 
@@ -58,7 +61,9 @@ function getRandomNumber(){
     return Math.floor(Math.random()*hex.length);
 }
 
-// setInterval(colorchange,500)
+// setInterval(colorchange,1000)
+
+// its working on auto mode
 
 </script>
 </body>

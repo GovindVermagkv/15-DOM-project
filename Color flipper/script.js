@@ -2,6 +2,8 @@ var color=["blue","green","aqua","pink","red"]
 var btn=document.getElementById("btn")
 var imge=document.getElementById("img")
 var imge2=document.getElementById("img2")
+var audio=document.getElementById("audio")
+
 
 function colorchange(){
     randomnumber=getRandomNumber();
@@ -14,7 +16,7 @@ function colorchange(){
 
     var head=document.getElementById("colorname");
     head.innerText = color[randomnumber];
-
+    audio.play();
 }
 
 
