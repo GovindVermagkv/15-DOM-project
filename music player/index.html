@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Music Player</title>
+</head>
+
+<body>
+
+    <center>
+        <div class="main">
+            <div class="mobilearea">
+                <h1></h1>
+                <i class="fa fa-dot-circle-o" id="circle"></i>
+            </div>
+            <div class="bar">
+                <i class="fa fa-ellipsis-v"></i>
+                <i class="fa fa-music"></i>
+            </div>
+            <div class="area2">
+                <div class="display">
+                    <center>
+                        <img src="govind.png" alt="" id="profile">
+                        <h3>Pani Da Rang Dekhake</h3>
+                        <p><i>Govind verma</i></p>
+                        <!-- <i class="fa fa-heart" id="heart"></i> -->
+                        <img src="58kL.gif" alt="" id="beat">
+                    </center>
+                </div>
+
+                <footer>
+                    <div class="left">
+                        <i class="fa fa-download"></i>
+                        <i class="fa fa-backward"></i>
+                    </div>
+
+                    <div class="playbtn">
+                        <i class="fa fa-play" id="play" onclick="playing()"></i>
+                        <i class="fa fa-pause" id="pause" onclick="pausing()"></i>
+                    </div>
+
+                    <div class="right">
+                        <i class="fa fa-forward"></i>
+                        <i class="fa fa-refresh"></i>
+                    </div>
+                </footer>
+            </div>
+            
+           
+        </div>
+    </center>
+
+
+    <audio src="bijli.mp3" id="mp3"></audio>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
