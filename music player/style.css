@@ -4,10 +4,13 @@ body{
 
 .main{
     max-width: 50%;
-    height: 750px;
+    /* height: fit-content; */
+    height: 715px;
     background-color: #fff;
     border: 2px solid gray;
     border-radius: 50px;
+
+    margin-top: 50px;
 }
 h1{
     border-bottom: 2px solid black;
@@ -56,6 +59,7 @@ h1{
     top: 11%;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    padding-top: 30px;
 }
 h3,p{
     color: white;
@@ -66,14 +70,15 @@ footer{
     justify-content: space-between;
     background-color: aqua;
     width: 100%;
-    height: 65px;
+    height: 95px;
     align-items: center;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
 footer i{
-    margin: 0px 10px;
+    margin: 0px 15px;
     font-size: 35px;
+   
 }
 footer .left{
    margin-left: 30px;
@@ -81,26 +86,17 @@ footer .left{
 footer .right{
    margin-right: 30px;
 }
-.playbtn{
-    background-color:black;
-    color: white;
-    font-size: 25px;
-    border-radius: 50%;
-    padding: 0px 12px 20px 10px;
-    position: absolute;
-    left: 38%;
-    bottom:5%;
-}
+
 
 
 #play{
     background-color:red;
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     border-radius: 50%;
-    padding: 15px 18px;
+    align-self: center;
+    padding: 15px 17px 15px 22px;
     position: relative;
-    /* bottom: 10%; */
 }
 
 
@@ -108,11 +104,51 @@ footer .right{
     display: none;
     background-color:red;
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     border-radius: 50%;
-    padding: 15px 18px;
+    align-self: center;
+    padding: 15px 17px 15px 22px;
     position: relative;
 }
+#next{
+    color: red;
+}
+#pre{
+    color: red;
+}
+
+#next:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+#pre:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -125,6 +161,7 @@ footer .right{
     .display #profile{
         width: 100px;
         height: 100px;
+       left: 20%;
     }
     .display #beat{
         width: 100px;
@@ -138,10 +175,28 @@ footer .right{
     }
 
     .area2{
-        top: 19%;
+        top: 15%;
     }
     footer i{
         margin: 0px 5px;
         font-size: 25px;
+    }
+}
+
+
+
+@media (max-width:383px) {
+
+    .display #profile{
+       
+       left: 1%;
+    }
+    .left i{
+        margin: 0px 5px;
+        font-size: 20px;
+    }
+    .right i{
+        margin: 0px 5px;
+        font-size: 20px;
     }
 }

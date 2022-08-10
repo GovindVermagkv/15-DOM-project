@@ -26,27 +26,25 @@
                 <div class="display">
                     <center>
                         <img src="govind.png" alt="" id="profile">
-                        <h3>Pani Da Rang Dekhake</h3>
+                        <h3 id="songname">Pani Da Rang Dekhake</h3>
                         <p><i>Govind verma</i></p>
-                        <!-- <i class="fa fa-heart" id="heart"></i> -->
                         <img src="58kL.gif" alt="" id="beat">
                     </center>
                 </div>
 
                 <footer>
                     <div class="left">
-                        <i class="fa fa-download"></i>
-                        <i class="fa fa-backward"></i>
+                        <i class="fa fa-download fa-2x"></i>
+                        <i class="fa fa-backward fa-2x" id="pre" onclick="previous()"></i>
                     </div>
 
-                    <div class="playbtn">
                         <i class="fa fa-play" id="play" onclick="playing()"></i>
                         <i class="fa fa-pause" id="pause" onclick="pausing()"></i>
-                    </div>
+                
 
                     <div class="right">
-                        <i class="fa fa-forward"></i>
-                        <i class="fa fa-refresh"></i>
+                        <i class="fa fa-forward fa-2x" id="next" onclick="nexting()"></i>
+                        <i class="fa fa-refresh fa-2x"></i>
                     </div>
                 </footer>
             </div>
@@ -56,7 +54,9 @@
     </center>
 
 
-    <audio src="zra.mp3" id="mp3"></audio>
+    <audio id="mp3">
+        <source src="" type="mp3">
+    </audio>
 
     <script src="script.js"></script>
 
