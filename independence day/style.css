@@ -73,3 +73,38 @@ p{
     margin-right: 50px;
     color: red;
 }
+
+
+
+
+
+
+@media (max-width: 450px) {
+
+    .popbox img{
+        width: 300px;
+        height:300px;
+    }
+    .text{
+        font-size: 20px;
+    }
+
+    
+}
+
+
+
+
+
+@media (max-width: 350px) {
+
+    .popbox img{
+        width: 200px;
+        height:200px;
+    }
+    .text{
+        font-size: 15px;
+    }
+
+    
+}
