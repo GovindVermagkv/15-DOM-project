@@ -122,8 +122,8 @@ ul a:hover {
         height: 800px;
         border-right: 2px solid gray;
         border-bottom: 2px solid gray;
+        /* display: block; */
         transition: .7s;
-        display: block;
     }
 
     h1 {
@@ -132,6 +132,7 @@ ul a:hover {
 
     #menubar {
         display: block;
+        /* margin-left: 60px; */
     }
     #color{
         display: block;
