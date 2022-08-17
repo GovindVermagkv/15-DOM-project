@@ -1,0 +1,1 @@
+<img src="que ans.png">
