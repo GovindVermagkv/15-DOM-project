@@ -1,0 +1,261 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-transform: capitalize;
+}
+/* 
+body {
+    /* background-color: rgba(199, 112, 112, 0.318); */
+    /* width: 100%; */
+
+/* }  */
+
+/* header {
+    background-color: white;
+    padding: 30px 0px;
+    width: 100%;
+} */
+
+#pop{
+    background-color: #fff;
+    height: 0px;
+    transition: .5s;
+}
+ol{
+    display: inline-block;
+}
+#pop ol li{
+    list-style: none;
+}
+#pop ol li a{
+    text-decoration: none;
+    margin: 0px 50px;
+    line-height: 25px;
+    font-size: 20px;
+    color: gray;
+    transition: .5s;
+}
+#pop ol li a:hover{
+    color: aqua;
+
+}
+
+
+nav {
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+}
+nav img{
+    width: 50px;
+    height: 40px;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 40px;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    transition: .5s;
+}
+
+ul a:hover {
+    color: aqua;
+}
+
+#menubar {
+    font-size: 25px;
+    color: blue;
+    display: none;
+    transition: .7s;
+}
+#color {
+    font-size: 25px;
+    color: blue;
+    display: none;
+    transition: .7s;
+}
+
+
+.socialicon i {
+    color: rgb(175, 49, 49);
+    margin: 0px 10px;
+    cursor: pointer;
+}
+main{
+    width: 100%;
+}
+
+.landpage{
+    width: 100%;
+    height: 100vh;
+   
+}
+center{
+    color: white;
+    position: relative;
+    bottom: 60%;
+}
+h2{
+    font-size: 80px;
+}
+.contentmiddle h2,p{
+    margin: 10px 0px;
+}
+.contentmiddle button{
+    margin: 10px 0px;
+    background-color: transparent;
+    padding: 10px 40px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    transition: .5s;
+}
+.contentmiddle button:hover{
+    background-color: aqua;
+    color: white;
+}
+
+
+.landpage::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.497);
+    z-index: -1;
+}
+.landpage img{
+    width: 100%;
+    height: 100%;
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    background-color:blueviolet;
+    transition: .8s;
+}
+h1{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    color: white;
+    font-size: 50px;
+}
+span {
+    color: aqua;
+}
+.contact{
+    width: 100%;
+    height: 100vh;
+    background-color: cornflowerblue;
+    transition: .5s;
+}
+.project{
+    width: 100%;
+    height: 100vh;
+    background-color: darkcyan;
+    transition: .5s;
+}
+
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.und{
+    background-color: rgb(55, 160, 55);
+    float: right;
+    position: fixed;
+    top: 80%;
+   right: 4%;
+   padding: 7px 7px;
+   border-radius: 15px;
+    /* display: inline-block; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:827px) {
+    header {
+        width: 100%;
+    }
+
+    aside {
+        width: 50%;
+        height: 800px;
+        border-right: 2px solid gray;
+        border-bottom: 2px solid gray;
+        transition: .7s;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+    p{
+        font-size: 15px;
+    }
+
+    #menubar {
+        display: block;
+        color: white;
+        /* margin-left: 60px; */
+    }
+    #color{
+        display: block;
+        color: white;
+    }
+
+    ul,
+    .socialicon {
+        display: none;
+    }
+
+    aside ol li a {
+        font-size: 20px;
+    }
+
+
+}

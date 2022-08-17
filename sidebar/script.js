@@ -10,13 +10,14 @@ var body=document.querySelector("body")
 
 function activeaside(){
 
-    if(asides.style.display=="none"){
+    if(asides.style.width=="0%"){
         asides.style.display="block";
+        asides.style.width="100%";
         bars.style.color="red";
         bars.style.transform="rotate(90deg)";
     }
     else{
-        asides.style.display="none";
+        asides.style.width="0%";
         bars.style.color="blue";
         bars.style.transform="rotate(-90deg)";
     }

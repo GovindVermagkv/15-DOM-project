@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>scroll</title>
+</head>
+
+<body>
+    <div id="pop">
+        <ol>
+            <li><a href="#pop">home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">contact</a></li>
+            <li><a href="#project">projects</a></li>
+        </ol>
+    </div>
+
+    <header>
+
+
+        <nav>
+            <img src="shop.png" alt="">
+            <div class="link-container">
+                <ul class="links">
+                    <li><a href="#landpage">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="#project">projects</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-sun-o" id="color" onclick="colors()"></i>
+            <i class="fa fa-bars" id="menubar" onclick="activeaside()"></i>
+        </nav>
+    </header>
+
+    <main>
+        <div class="landpage" id="landpage">
+            <img src="mountain.jpg" alt="">
+            <center>
+                <div class="contentmiddle">
+                    <h2>govind verma</h2>
+                    <p>Numquam accusantium sequi <br>eos iure reiciendis at eius repudiandae. Placeat<br> beatae
+                        corrupti,
+                        totam nihil eius alias magni accusamus<br> repellendus soluta eum officia.</p>
+                    <button id="click"> explore tours</button>
+                </div>
+            </center>
+        </div>
+
+        <div class="about" id="about">
+            <h1>about <span>page</span> </h1>
+        </div>
+        <div class="contact" id="contact">
+            <h1>contact <span>page</span></h1>
+        </div>
+        <div class="project" id="project">
+            <h1>plan <span>page</span></h1>
+        </div>
+        <div class="und">
+            <a href="#landpage"><i class="fa fa-angle-up fa-2x" style="color:white;"></i></a><br>
+            <a href="#footer"><i class="fa fa-angle-down fa-2x" style="color: white;"></i></a>
+
+        </div>
+    </main>
+
+
+    <footer id="footer">
+        <h3>copyright &copy; govind verma 2022 || all right reserved </h3>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
