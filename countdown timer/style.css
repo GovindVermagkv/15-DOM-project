@@ -1,0 +1,113 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(27, 26, 31);
+    /* background-image: url("bday2.gif"); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    position: absolute;
+    top: 5%;
+}
+.title>h1{
+    font-size: 7rem;
+    color: red;
+    border-bottom: 10px solid green;
+    text-transform: capitalize;
+}
+.main input{
+    width: 40%;
+    height: 30px;
+    padding: 10px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin: 0px 5px;
+}
+.timedetails >input{
+    margin: 50px 5px;
+    width: 70px;
+}
+
+.main button{
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+    transition: .3s;
+}
+.main button:hover{
+    background-color: #fff;
+    color:  red;
+}
+.page1{
+    width: fit-content;
+    /* display: none; */
+}
+.page1 h2{
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+
+.pop{
+ width: 40%;
+ height: 400px;
+ background-color: white;
+ display: none;
+ justify-content: center;
+ align-items: center;
+ border-radius: 20px;
+ text-transform: uppercase;
+ color: red;
+ border: 1px solid blue;
+ 
+}
+span{
+    color: blue;
+    margin-left: 10px;
+}
+.countdown{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+.cd{
+    margin: 20px;
+}
+.cd >h3{
+    margin-bottom: 30px;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+.area{
+    width: 100px;
+    height: 100px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+.cl{
+    color: white;
+    font-size: 100px;
+    height: 100px;
+    text-align: center;
+    /* background-color: #fff; */
+}

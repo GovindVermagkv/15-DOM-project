@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BirthDay Countdown</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main" id="main">
+
+        <div class="title">
+            <h1> Birthday <span>gift</span></h1>
+        </div>
+        <div class="page1">
+            <input type="text" id="name" placeholder="Enter his / her name">
+            <!-- <div class="timedetails">
+                <input type="text" name="" id="date" placeholder="date">
+                <input type="text" name="" id="month" placeholder="month">
+                <input type="text" name="" id="year" placeholder="year">
+                <input type="text" name="" id="hours" placeholder="hour">
+                <input type="text" name="" id="minutes" placeholder="minutes">
+            </div> -->
+            <button type="submit" id="submit">Start CountDown</button>
+        </div>
+        <!-- <div class="popmain"> -->
+            <div class="pop">
+                <h1>happy BirthDay<br><br> <span id="namevalue"></span><br> <br>&#127874 &#127881 &#127874 &#127881
+                    &#127874</h1>
+            </div>
+        <!-- </div> -->
+
+
+        <div class="countdown">
+            <div class="days cd">
+                <h3 id="change">days</h3>
+                <div class="area">
+                    <h1 id="days" class="cl"></h1>
+                </div>
+            </div>
+            <div class="hours cd">
+                <h3>hours</h3>
+                <div class="area">
+                    <h1 id="hours" class="cl"></h1>
+                </div>
+            </div>
+            <div class="minutes cd">
+                <h3>minutes</h3>
+                <div class="area ">
+                    <h1 id="minutes" class="cl"></h1>
+                </div>
+            </div>
+            <div class="seconds cd">
+                <h3>seconds</h3>
+                <div class="area">
+                    <h1 id="sec" class="cl"></h1>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<audio src="Happy Birthday - Birthday Song.mp3" id="audio"></audio>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
