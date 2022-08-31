@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightcoral;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    padding: 20px 0;
+    border: 1px solid black;
+    width: 30%;
+    text-align: center;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.img , .con{
+    margin-bottom:20px ;
+}
+
+.info{
+    margin: 0 20px;
+    margin-top:20px ;
+}
+
+.pre , .next{
+    margin: 0 20px;
+}
